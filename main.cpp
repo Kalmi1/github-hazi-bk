@@ -22,5 +22,7 @@ int main()
     delete[] b;
     b = NULL;
 
+    std::cout << "Memoria felszabaditva" << std::endl;
+
     return 0;
 }
